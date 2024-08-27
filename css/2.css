@@ -1,0 +1,42 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background: #ffffff;
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+body{
+    background: linear-gradient(90deg, rgb(208, 255, 0), blue);
+}
+h1{
+    text-align: center;
+}
+p>i{
+    max-width: 80%;
+    text-align: right;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.info img{
+    width: 450px;
+    height: 250px;
+}
+.info p{
+    width: 500px;
+    text-align: justify;
+}
+.img img{
+    width: 32%;
+    height: 200px;
+    object-fit: cover;
+}

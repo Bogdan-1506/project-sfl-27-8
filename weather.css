@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+.weather{
+    width: 550px;
+    background: white;
+    border-radius: 10px;
+    margin: 5% auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    padding: 10px 15px;
+}
+input{
+    padding: 10px;
+}
+body{
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+}
+.img{
+    top: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+.img img{
+    
+    position: absolute; 
+    width: 100%; 
+    height: 100vh;
+    z-index: -1;
+}

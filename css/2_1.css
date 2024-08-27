@@ -1,0 +1,22 @@
+div{
+    width: 250px;
+    height: 250px;
+    background: #ff0000;
+    margin-top: 10px;
+}
+.block1{
+    border-radius: 0 10px 10px 0;
+    background: #ff6600;
+}
+.block2{
+    border-radius: 0 120px 0 120px;
+    background: #15d826;
+}
+.block3{
+    border-radius: 30px 120px 30px 120px;
+    background: #d0ff00;
+}
+.block4{
+    border-radius: 50%;
+    background: #ff6600;
+}
